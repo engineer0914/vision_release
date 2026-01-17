@@ -1,0 +1,14 @@
+Python 패키지 설치 (ROS2 Humble은 기본 Python 3.10)
+pip install ultralytics opencv-python
+
+워크스페이스에 YOLO 노드 패키지 생성
+cd ~/realsense_ws/src
+ros2 pkg create --build-type ament_python yolo_realsense
+
+##
+WARNING: The scripts f2py and numpy-config are installed in '/home/user/.local/bin' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ython 스크립트 실행 경로가 PATH에 포함되지 않아서 발생
+echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
+source ~/.bashrc
+((영구 적용))
+

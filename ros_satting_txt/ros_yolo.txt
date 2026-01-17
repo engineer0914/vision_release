@@ -1,0 +1,18 @@
+Python 버전 확인 (ROS2 Humble 기본: 3.10):
+python3 --version
+
+
+가상환경(venv) 사용:
+cd ~
+python3 -m venv ros2_yolo_env
+source ros2_yolo_env/bin/activate
+
+패키지 설치:
+pip install --upgrade pip
+pip install opencv-python ultralytics numpy matplotlib
+
+ROS2 노드 실행:
+source /opt/ros/humble/setup.bash
+ros2 launch realsense2_camera rs_launch.py
+ros2 run yolo_realsense yolo_node
+

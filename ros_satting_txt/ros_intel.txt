@@ -1,0 +1,9 @@
+RealSense D435i node
+ros2 launch realsense2_camera rs_launch.py
+
+노드가 발행하는 토픽을 확인
+ros2 topic list
+
+ROS2에서 이미지가 제대로 나오는지 확인
+ros2 run rqt_image_view rqt_image_view
+

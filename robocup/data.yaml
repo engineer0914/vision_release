@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['AllenKey', 'Axis2', 'Bearing2', 'Drill', 'F20_20_B', 'F20_20_G', 'Housing', 'M20', 'M20_100', 'M30', 'Motor2', 'S40_40_B', 'S40_40_G', 'Screwdriver', 'Spacer', 'Wrench', 'container_box_blue', 'container_box_red']
+
+roboflow:
+  workspace: test-lnzwf
+  project: robocup-work-objects-2-wjyrb
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/test-lnzwf/robocup-work-objects-2-wjyrb/dataset/2
