@@ -1,6 +1,6 @@
 # 🤖 RBCPC 가상환경 구축 및 실행 가이드
 
-<video src="thumbnail.gif" width="100%" controls></video>
+<video src="../thumbnail.gif" width="100%" controls></video>
 
 이 문서는 **rbcpc** 가상환경을 설정하고, **YOLOv11** 기반의 포즈 추정(Pose Estimation) 및 **RealSense** 카메라 연동 프로젝트를 실행하기 위한 매뉴얼입니다.
 
