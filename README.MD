@@ -1,7 +1,8 @@
 🤖 RBCPC 가상환경 구축 및 실행 가이드
-이 문서는 rbcpc 가상환경을 설정하고, YOLOv11 기반의 포즈 추정(Pose Estimation) 및 RealSense 카메라 연동 프로젝트를 실행하기 위한 매뉴얼입니다.
 
 <video src="../thumbnail.mkv" width="100%" controls></video>
+
+이 문서는 rbcpc 가상환경을 설정하고, YOLOv11 기반의 포즈 추정(Pose Estimation) 및 RealSense 카메라 연동 프로젝트를 실행하기 위한 매뉴얼입니다.
 
 1. 가상환경 구축 (Conda)
 먼저 기존 환경을 정리(선택 사항)하고, Python 3.9 기반의 새로운 환경을 생성합니다.
