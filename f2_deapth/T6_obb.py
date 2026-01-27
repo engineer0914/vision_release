@@ -8,7 +8,7 @@ from ultralytics import YOLO
 # -----------------------------------------------------------
 # YOLO 모델 로드
 # -----------------------------------------------------------
-model = YOLO("./runs/detect/train_8n/weights/best.pt")
+model = YOLO("../runs/detect/0128_train/weights/best.pt")
 print("YOLO 모델 로드 완료!")
 
 

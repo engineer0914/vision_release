@@ -61,4 +61,6 @@ END
 
 
 
-
+PyTorch: 2.5.0a0+872d972e41.nv24.08
+CUDA Available: True
+Device Name: Orin
