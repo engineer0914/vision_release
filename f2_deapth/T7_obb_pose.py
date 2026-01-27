@@ -8,7 +8,7 @@ import math
 import time
 
 # ------------------- 사용자 설정 -------------------
-YOLO_WEIGHTS = "../runs/detect/train_8n/weights/best.pt"
+YOLO_WEIGHTS = "../runs/detect/0128_train/weights/best.pt"
 VOXEL_DOWNSAMPLE = 0.01        # RANSAC 전 다운샘플 크기 (m)
 RANSAC_DIST = 0.01             # 평면(ground) distance threshold (m)
 MIN_POINTS_PER_ROI = 20        # ROI에서 최소 포인트 수 (무시할 임계값)
